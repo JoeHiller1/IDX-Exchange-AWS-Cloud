@@ -36,3 +36,5 @@ Provides a snapshot of the data in the root EBS volume.
 
 32. Wait for status “completed”
 This wait is just to ensure the snapshot of the EBS volume succeeded
+
+Check for undestanding: If you created a new volume from the snapshot, it would contain the same data as the snapshot.
