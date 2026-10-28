@@ -1,0 +1,3 @@
+### Week 5: Traffic path from laptop to private instance
+
+First, from my IP address, I SSH into a public Bastion EC2 instance inside a public subnet called training-vpc. Then, from within that Bastion instance I SSH into a private instance within the private subnet. The private instance has no public IP, and its security group allows SSH access only from the Bastion's security group. This prevents direct internet access. 
